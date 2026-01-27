@@ -3,7 +3,6 @@ package com.example.demo.entities;
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 
-
 @Entity
 @Table(name = "doctor")
 public class Doctor {
