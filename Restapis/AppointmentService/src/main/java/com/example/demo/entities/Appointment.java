@@ -8,9 +8,9 @@ import java.time.LocalDateTime;
 @Entity
 @Table(
     name = "appointment",
-    uniqueConstraints = @UniqueConstraint(
-        columnNames = {"doctor_id", "appointment_date", "slot_time"}
-    )
+    uniqueConstraints = {
+        @UniqueConstraint(columnNames = {"doctor_id", "appointment_date", "slot_time"})
+    }
 )
 public class Appointment {
 
@@ -32,67 +32,80 @@ public class Appointment {
     private LocalTime slotTime;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+    @Column(name = "status", nullable = false)
     private AppointmentStatus status;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
 
-	public Integer getAppointmentId() {
-		return appointmentId;
-	}
+    // Constructors
+    public Appointment() {}
 
-	public void setAppointmentId(Integer appointmentId) {
-		this.appointmentId = appointmentId;
-	}
+    public Appointment(Integer patientId, Integer doctorId, LocalDate appointmentDate,
+                       LocalTime slotTime, AppointmentStatus status) {
+        this.patientId = patientId;
+        this.doctorId = doctorId;
+        this.appointmentDate = appointmentDate;
+        this.slotTime = slotTime;
+        this.status = status;
+        this.createdAt = LocalDateTime.now();
+    }
 
-	public Integer getPatientId() {
-		return patientId;
-	}
+    // Getters and Setters
 
-	public void setPatientId(Integer patientId) {
-		this.patientId = patientId;
-	}
+    public Integer getAppointmentId() {
+        return appointmentId;
+    }
 
-	public Integer getDoctorId() {
-		return doctorId;
-	}
+    public void setAppointmentId(Integer appointmentId) {
+        this.appointmentId = appointmentId;
+    }
 
-	public void setDoctorId(Integer doctorId) {
-		this.doctorId = doctorId;
-	}
+    public Integer getPatientId() {
+        return patientId;
+    }
 
-	public LocalDate getAppointmentDate() {
-		return appointmentDate;
-	}
+    public void setPatientId(Integer patientId) {
+        this.patientId = patientId;
+    }
 
-	public void setAppointmentDate(LocalDate appointmentDate) {
-		this.appointmentDate = appointmentDate;
-	}
+    public Integer getDoctorId() {
+        return doctorId;
+    }
 
-	public LocalTime getSlotTime() {
-		return slotTime;
-	}
+    public void setDoctorId(Integer doctorId) {
+        this.doctorId = doctorId;
+    }
 
-	public void setSlotTime(LocalTime slotTime) {
-		this.slotTime = slotTime;
-	}
+    public LocalDate getAppointmentDate() {
+        return appointmentDate;
+    }
 
-	public AppointmentStatus getStatus() {
-		return status;
-	}
+    public void setAppointmentDate(LocalDate appointmentDate) {
+        this.appointmentDate = appointmentDate;
+    }
 
-	public void setStatus(AppointmentStatus status) {
-		this.status = status;
-	}
+    public LocalTime getSlotTime() {
+        return slotTime;
+    }
 
-	public LocalDateTime getCreatedAt() {
-		return createdAt;
-	}
+    public void setSlotTime(LocalTime slotTime) {
+        this.slotTime = slotTime;
+    }
 
-	public void setCreatedAt(LocalDateTime createdAt) {
-		this.createdAt = createdAt;
-	}
+    public AppointmentStatus getStatus() {
+        return status;
+    }
 
-    
+    public void setStatus(AppointmentStatus status) {
+        this.status = status;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
+    }
 }
