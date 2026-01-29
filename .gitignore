@@ -1,12 +1,6 @@
-# .NET build folders
 bin/
 obj/
 .vs/
-
-# user files
 *.user
-*.suo
-
-# logs & cache
 *.log
 *.cache
