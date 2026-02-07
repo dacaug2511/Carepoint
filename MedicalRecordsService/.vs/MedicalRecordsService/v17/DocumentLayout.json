@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\medicalrecordsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\medicalrecordsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|d:\\know-it\\project\\dotnet\\medicalrecordsservice\\medicalrecordsservice\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20461501-D19B-4AA6-9D8E-D009FE6EFEC4}|MedicalRecordsService\\MedicalRecordsService.csproj|solutionrelative:medicalrecordsservice\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MedicalRecordsService\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAQAAAAAMzMzMzMLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:19:50.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\Models\\Feedback.cs",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Models\\Feedback.cs",
+              "RelativeToolTip": "MedicalRecordsService\\Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T07:22:16.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "MedicalRecordsService\\Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T12:28:43.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MedicalRecordsService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-04T03:48:26.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\appsettings.json",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\appsettings.json",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\appsettings.json",
+              "RelativeToolTip": "MedicalRecordsService\\appsettings.json",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-04T03:41:00.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedicalRecordsService.csproj",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\MedicalRecordsService.csproj",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\MedicalRecordsService.csproj",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\MedicalRecordsService.csproj",
+              "RelativeToolTip": "MedicalRecordsService\\MedicalRecordsService.csproj",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-04T03:32:03.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Program.cs",
+              "RelativeDocumentMoniker": "MedicalRecordsService\\Program.cs",
+              "ToolTip": "D:\\Know-IT\\PROJECT\\DOTNET\\MedicalRecordsService\\MedicalRecordsService\\Program.cs",
+              "RelativeToolTip": "MedicalRecordsService\\Program.cs",
+              "ViewState": "AgIAADIAAADg//////8hwEEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T03:33:13.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
