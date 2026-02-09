@@ -1,0 +1,43 @@
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar links underline */
+.navbar-nav .nav-link {
+  position: relative;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #6f42c1; /* purple underline */
+  transition: width 0.3s;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+/* Service card hover */
+.service-card {
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: translateY(-10px); /* float effect */
+  background-color: #6f42c1; /* purple */
+  color: white;
+}
+
+.service-card:hover .card-title,
+.service-card:hover .card-text {
+  color: white;
+}
